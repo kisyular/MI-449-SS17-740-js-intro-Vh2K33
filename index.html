@@ -29,27 +29,27 @@
         <div class="row">
             <h1>Click the Buttons to Play The Sound</h1>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('boom').play()" onmouseover="document.getElementById('boom').play()">Boom</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('boom')" onmouseover="playAudio('boom')">Boom</button>
                 <audio id="boom" src="sounds/boom.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('clap').play()" onmouseover="document.getElementById('clap').play()">Clap</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('clap')" onmouseover="playAudio('clap')">Clap</button>
                 <audio id="clap" src="sounds/clap.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('hihat').play()" onmouseover="document.getElementById('hihat').play()">Hihat</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('hihat')" onmouseover="playAudio('hihat')">Hihat</button>
                 <audio id="hihat" src="sounds/hihat.wav"></audio>
             </div>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('kick').play()" onmouseover="document.getElementById('kick').play()">Kick</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('kick')" onmouseover="playAudio('kick')">Kick</button>
                 <audio id="kick" src="sounds/kick.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('openhat').play()" onmouseover="document.getElementById('openhat').play()">Openhat</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('openhat')" onmouseover="playAudio('openhat')">Openhat</button>
                 <audio id="openhat" src="sounds/openhat.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('ride').play()" onmouseover="document.getElementById('ride').play()">Ride</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('ride')" onmouseover="playAudio('ride')">Ride</button>
                 <audio id="ride" src="sounds/ride.wav"></audio>
             </div>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('snare').play()" onmouseover="document.getElementById('snare').play()">Snare</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('snare')" onmouseover="playAudio('snare')">Snare</button>
                 <audio id="snare" src="sounds/snare.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('tink').play()" onmouseover="document.getElementById('tink').play()">Tink</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('tink')" onmouseover="playAudio('tink')">Tink</button>
                 <audio id="tink" src="sounds/tink.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="document.getElementById('tom').play()" onmouseover="document.getElementById('tom').play()">Tom</button>
+                <button type="button" class="btn btn-primary" onclick="playAudio('tom')" onmouseover="playAudio('tom')">Tom</button>
                 <audio id="tom" src="sounds/tom.wav"></audio>
             </div>
         </div>
@@ -57,6 +57,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

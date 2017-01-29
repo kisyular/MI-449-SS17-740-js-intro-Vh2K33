@@ -1,0 +1,35 @@
+.col-sm-4 {
+    text-align: center;
+}
+
+.btn {
+    margin: 0 5px;
+    width: 100px;
+}
+
+nav {
+    margin: auto 0;
+    margin: 0 20px;
+}
+
+.container-fluid {
+    margin: 50px;
+    background-color: darkgray;
+    padding: 20px;
+}
+
+body {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 922px) {
+    .btn {
+        margin: 20px;
+        width: 50%;
+        height: 60px;
+    }
+}

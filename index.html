@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,54 +10,45 @@
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Play Sounds</a> </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>          <a class="navbar-brand" href="#">Play Sounds</a> </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+        <!--/.nav-collapse -->
+      </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
-            <h1>Click the Buttons to Play The Sound</h1>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="playAudio('boom')" onmouseover="playAudio('boom')">Boom</button>
-                <audio id="boom" src="sounds/boom.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('clap')" onmouseover="playAudio('clap')">Clap</button>
-                <audio id="clap" src="sounds/clap.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('hihat')" onmouseover="playAudio('hihat')">Hihat</button>
-                <audio id="hihat" src="sounds/hihat.wav"></audio>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="playAudio('kick')" onmouseover="playAudio('kick')">Kick</button>
-                <audio id="kick" src="sounds/kick.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('openhat')" onmouseover="playAudio('openhat')">Openhat</button>
-                <audio id="openhat" src="sounds/openhat.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('ride')" onmouseover="playAudio('ride')">Ride</button>
-                <audio id="ride" src="sounds/ride.wav"></audio>
-            </div>
-            <div class="col-sm-4">
-                <button type="button" class="btn btn-primary" onclick="playAudio('snare')" onmouseover="playAudio('snare')">Snare</button>
-                <audio id="snare" src="sounds/snare.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('tink')" onmouseover="playAudio('tink')">Tink</button>
-                <audio id="tink" src="sounds/tink.wav"></audio>
-                <button type="button" class="btn btn-primary" onclick="playAudio('tom')" onmouseover="playAudio('tom')">Tom</button>
-                <audio id="tom" src="sounds/tom.wav"></audio>
-            </div>
+      <div class="row">
+        <h1>Click the Buttons to Play The Sound</h1>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" id="boom">Boom</button>
+          <button type="button" class="btn btn-primary" id="clap">Clap</button>
+          <button type="button" class="btn btn-primary" id="hihat">Hihat</button>
         </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" id="kick">Kick</button>
+          <button type="button" class="btn btn-primary" id="openhat">Openhat</button>
+          <button type="button" class="btn btn-primary" id="ride">Ride</button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-primary" id="snare">Snare</button>
+          <button type="button" class="btn btn-primary" id="tink">Tink</button>
+          <button type="button" class="btn btn-primary" id="tom">Tom</button>
+        </div>
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 
 </html>
